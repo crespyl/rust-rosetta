@@ -666,6 +666,11 @@ name = "lzw"
 path = "src/lzw.rs"
 
 [[bin]]
+# http://rosettacode.org/wiki/Mandelbrot_set
+name = "mandelbrot_set"
+path = "src/mandelbrot_set.rs"
+
+[[bin]]
 # http://rosettacode.org/wiki/Man_or_boy_test
 name = "man_or_boy"
 path = "src/man_or_boy.rs"
