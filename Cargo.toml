@@ -45,6 +45,7 @@ authors = [
     "Glen De Cauwsemaecker, https://github.com/glendc",
     "Amos Bird, https://github.com/amosbird",
     "Juan Vidal Pich, https://github.com/juanevp",
+    "Peter Jacobs, https://github.com/crespyl",
 ]
 
 [dependencies]
@@ -424,6 +425,11 @@ test = false
 # http://rosettacode.org/wiki/Flatten_a_list
 name = "flatten_list"
 path = "src/flatten_list.rs"
+
+[[bin]]
+# http://rosettacode.org/wiki/Flipping_bits_game
+name = "flipping_bits_game"
+path = "src/flipping_bits_game.rs"
 
 [[bin]]
 # http://rosettacode.org/wiki/Four_bit_adder
